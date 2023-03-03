@@ -13,7 +13,7 @@ namespace PDC03_MODULE02
         public MainPage()
         {
             InitializeComponent();
-        }
+        }   
         private async void OpenActivity1(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new activity1());
@@ -23,5 +23,22 @@ namespace PDC03_MODULE02
         {
             await Navigation.PushAsync(new activity2());
         }
+
+        private async void OpenActivity3(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new activity3());
+        }
+
+        private async void OpenActivity4(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new activity4());
+        }
+
+        private async void OpenActivity5(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new activity5());
+        }
+
+
     }
 }
